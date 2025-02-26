@@ -1,0 +1,19 @@
+SEED = 17
+EXP = "DataNet_CBAM_apnea"
+
+MODEL = "Net"
+DATASET = "ae"
+NUM_EPOCHS = 400
+BATCH_SIZE = 64
+NUM_WORKERS = 16
+LEARNING_RATE = 0.001
+WEIGHT = None
+
+IN_CHANNEL = 1
+NUM_CLASSES = 2
+DC_NUM_LAYERS = 4
+DC_SCALE = 1
+FUN = "relu"
+
+TASK = "multilabel"
+SCH_PATIENCE = 10
